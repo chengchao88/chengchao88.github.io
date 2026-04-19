@@ -1,1 +1,76 @@
-<html><head><title>我的个人网站</title><style>body{display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:100vh;margin:0;font-family:Arial;}</style></head><body><h1>欢迎来到我的个人网站</h1>< img src="chengchao.jpg" alt="我的照片" width="200"><p>大家好，我是程超，这是我用GitHub Pages搭建的第一个网站。</p ></body></html>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的个人网站</title>
+    <style>
+        /* 基础样式设置 */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* 容器样式 */
+        .container {
+            max-width: 800px;
+            width: 90%;
+            margin: 50px auto;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        /* 图片样式 */
+        .profile-img {
+            max-width: 200px;
+            height: auto;
+            border-radius: 50%; /* 圆形头像，如果想保留原图方正可以删掉这一行 */
+            border: 5px solid #eee;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            color: #2c3e50;
+        }
+
+        p {
+            font-size: 1.1em;
+            color: #666;
+        }
+
+        .footer {
+            margin-top: 30px;
+            font-size: 0.8em;
+            color: #aaa;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        < img src="https://github.com/chengchao88/chengchao88.github.io/blob/main/chengchao.jpg?raw=true" alt="我的照片" class="profile-img">
+        
+        <h1>欢迎来到我的网站</h1>
+        <p>你好！这是我的个人主页。目前我正在学习网页开发和自动化技术。</p >
+        
+        <hr style="border: 0; border-top: 1px solid #eee; margin: 20px 0;">
+        
+        <p>更多内容敬请期待...</p >
+
+        <div class="footer">
+            © 2026 由 Gemini 协作构建
+        </div>
+    </div>
+
+</body>
+</html>
